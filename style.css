@@ -6,7 +6,7 @@
 ul {
   list-style-type: none;
 }
-body{
+body {
   background-color: hsl(217, 54%, 11%);
 }
 .container {
@@ -29,8 +29,8 @@ body{
   width: 380px;
   border-radius: 20px;
 }
-.nft:hover{
-  opacity:0.2;
+.nft:hover {
+  opacity: 0.2;
   color: aqua;
 }
 .equil {
@@ -85,4 +85,13 @@ body{
 }
 .creator-name:hover {
   color: hsl(178, 100%, 50%);
+}
+footer {
+  position: fixed;
+  bottom: -10px;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  color: white;
 }
